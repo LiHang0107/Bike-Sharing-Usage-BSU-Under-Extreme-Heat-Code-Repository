@@ -36,7 +36,10 @@ git clone https://github.com/LiHang0107/Bike-Sharing-Usage-BSU-Under-Extreme-Hea
 ```bash
 pip install -r requirements.txt  
 ```
-
+3. Down data files
+```bash
+https://doi.org/10.5281/zenodo.15035156
+```
 ---
 
 ## 🛠️ **Usage**
@@ -68,7 +71,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 **Key Outputs**
+## **Key Outputs**
 - SHAP-based feature importance analysis  
 - Nonlinear relationships between environmental factors and BSU  
 - Interaction plots to explore combined effects of thermal and environmental factors  
@@ -76,21 +79,20 @@ pip install -r requirements.txt
 
 ---
 
-## 📜 **Data and Privacy**
-- The raw data used in this study contains sensitive information and **cannot be shared** publicly.  
+## **Data and Privacy**
 - Processed and anonymized data can be shared upon request for academic purposes.  
 
 ---
 
-## 🌍 **Geographic and Environmental Data**
+## **Geographic and Environmental Data**
 - **Shapefiles** for geographic analysis are stored in `/data/shp_data/`.
    - `fishnet_300` – Spatial grids for environmental matching.
    - `2021.03` – POI and urban infrastructure data from March 2021.
-- **Raster Data** stored in `/data/raster_data/` includes NDVI and other environmental data used to evaluate green space and urban heat.
+- **Raster Data** stored in `/data/raster_data/` includes NDVI and Tmrt.
 
 ---
 
-## 💡 **Policy and Analysis Insights**
+## **Policy and Analysis Insights**
 This project investigates the impact of urban heat on bike-sharing from multiple perspectives:  
 ✅ **Temporal and spatial heterogeneity** – The relationship between Tmrt and BSU changes across different times and locations.  
 ✅ **Interaction effects** – High Tmrt weakens the positive impact of POI diversity and public transport proximity on BSU.  
@@ -98,17 +100,13 @@ This project investigates the impact of urban heat on bike-sharing from multiple
 
 ---
 
-## 🤝 **Contributing**
+## **Contributing**
 If you'd like to contribute to this project, please submit a pull request or contact me directly.
 
 ---
 
-## 🏆 **Acknowledgements**
-This work was supported by [Your Institution/Funding Body].
 
----
-
-## 🔧 **Requirements**
+## **Requirements**
 The required Python packages are listed in `requirements.txt`. Install them using:
 ```bash
 pip install -r requirements.txt
