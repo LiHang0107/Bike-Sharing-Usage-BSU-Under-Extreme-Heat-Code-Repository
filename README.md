@@ -29,7 +29,7 @@ This repository contains the code and data used for analyzing the impact of urba
 ## 🚀 **Setup and Installation**
 1. Clone this repository:
 ```bash
-git clone https://github.com/YourUsername/YourRepoName.git
+git clone https://github.com/LiHang0107/Bike-Sharing-Usage-BSU-Under-Extreme-Heat-Code-Repository
 ```
 2. Navigate to the project folder:
 ```bash
