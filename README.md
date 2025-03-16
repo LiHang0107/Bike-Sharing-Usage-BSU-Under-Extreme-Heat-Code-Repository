@@ -31,15 +31,9 @@ This repository contains the code and data used for analyzing the impact of urba
 ```bash
 git clone https://github.com/LiHang0107/Bike-Sharing-Usage-BSU-Under-Extreme-Heat-Code-Repository
 ```
-2. Navigate to the project folder:
+
+2. Install dependencies:
 ```bash
-cd YourRepoName
-```
-3. Create a virtual environment and install dependencies:
-```bash
-python -m venv venv  
-source venv/bin/activate  # For MacOS/Linux  
-.env\Scriptsctivate  # For Windows  
 pip install -r requirements.txt  
 ```
 
